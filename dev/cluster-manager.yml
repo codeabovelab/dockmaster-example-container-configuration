@@ -1,0 +1,12 @@
+environment:
+ DATABASE_HOST: mysql
+ DATABASE_NAME: quizzes
+ DATABASE_USERNAME: user
+ DATABASE_PASSWORD: pass
+labels:
+ key: value
+restart: always
+domainname: domainName.com
+extra_hosts:
+ - host1
+ - host2

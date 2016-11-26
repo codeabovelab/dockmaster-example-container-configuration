@@ -1,8 +1,8 @@
 environment:
- DATABASE_HOST: mysql
- DATABASE_NAME: quizzes
- DATABASE_USERNAME: user
- DATABASE_PASSWORD: pass
+ - DATABASE_HOST=mysql
+ - DATABASE_NAME=quizzes
+ - DATABASE_USERNAME=user
+ - DATABASE_PASSWORD=pass
 labels:
  key: value
 restart: always

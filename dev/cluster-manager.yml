@@ -9,6 +9,4 @@ restart: always
 domainname: domainName.com
 include:
  - common_mq_env.yml
-extra_hosts:
- - host1
- - host2
+

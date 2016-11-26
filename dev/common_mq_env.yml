@@ -1,5 +1,5 @@
 environment:
- - MQ_HOST: mq
- - MQ_NAME: quizzes
- - MQ_USERNAME: user
- - MQ_PASSWORD: pass
+ - MQ_HOST=mq
+ - MQ_NAME=quizzes
+ - MQ_USERNAME=user
+ - MQ_PASSWORD=pass

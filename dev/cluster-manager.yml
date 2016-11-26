@@ -7,7 +7,7 @@ labels:
  key: value
 restart: always
 domainname: domainName.com
-include
+include:
  - common_mq_env.yml
 extra_hosts:
  - host1

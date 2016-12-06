@@ -14,6 +14,8 @@ domainname: domainName.com
 volumeBinds:   
  - /var/log:/data/log
  - /home:/home
+volumesFrom:
+ - testContainer
 include:
  - common_mq_env.yml
 

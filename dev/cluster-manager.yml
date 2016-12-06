@@ -9,6 +9,7 @@ ports:
  8761: 8761
  8762: 8762
 restart: always
+memoryLimit: 1g
 domainname: domainName.com
 volumes:   
  - /var/log/sp:/data/log

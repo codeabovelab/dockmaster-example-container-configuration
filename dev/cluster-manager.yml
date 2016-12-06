@@ -5,6 +5,8 @@ environment:
  - DATABASE_PASSWORD=pass
 labels:
  key: value
+ports:
+ 8761: 8761
 restart: always
 domainname: domainName.com
 include:

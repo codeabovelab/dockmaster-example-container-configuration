@@ -7,6 +7,7 @@ labels:
  key: value
 ports:
  8761: 8761
+ 8762: 8762
 restart: always
 domainname: domainName.com
 volumes:   

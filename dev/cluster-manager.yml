@@ -11,8 +11,9 @@ ports:
 restart: always
 memoryLimit: 1g
 domainname: domainName.com
-volumes:   
- - /var/log/sp:/data/log
+volumeBinds:   
+ - /var/log:/data/log
+ - /home:/home
 include:
  - common_mq_env.yml
 

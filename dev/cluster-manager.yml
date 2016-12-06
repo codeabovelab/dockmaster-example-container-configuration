@@ -9,6 +9,8 @@ ports:
  8761: 8761
 restart: always
 domainname: domainName.com
+volumes:   
+ - /var/log/sp:/data/log
 include:
  - common_mq_env.yml
 

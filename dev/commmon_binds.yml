@@ -1,0 +1,5 @@
+volumeBinds:   
+ - /var/log:/data/log
+ - /tmp/data:/data
+volumesFrom:
+ - testContainer

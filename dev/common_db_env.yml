@@ -1,0 +1,5 @@
+environment:
+ - DATABASE_HOST=mysql
+ - DATABASE_NAME=quizzes
+ - DATABASE_USERNAME=user
+ - DATABASE_PASSWORD=pass

@@ -1,8 +1,4 @@
 environment:
- - DATABASE_HOST=mysql
- - DATABASE_NAME=quizzes
- - DATABASE_USERNAME=user
- - DATABASE_PASSWORD=pass
  - DEFAULT_JVM_OPTS="-Djava.security.egd=file:/dev/urandom -XX:+HeapDumpOnOutOfMemoryError -server"
 labels:
  key: value
@@ -11,12 +7,9 @@ ports:
  8762: 8762
 restart: always
 memoryLimit: 1g
-domainname: domainName.com
-volumeBinds:   
- - /var/log:/data/log
- - /home:/home
-volumesFrom:
- - testContainer
+domainname: cluster-manager.com
 include:
  - common_mq_env.yml
+ - common_db_env.yml
+ - commmon_binds.yml
 

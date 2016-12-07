@@ -3,6 +3,7 @@ environment:
  - DATABASE_NAME=quizzes
  - DATABASE_USERNAME=user
  - DATABASE_PASSWORD=pass
+ - DEFAULT_JVM_OPTS="-Djava.security.egd=file:/dev/urandom -XX:+HeapDumpOnOutOfMemoryError -server"
 labels:
  key: value
 ports:

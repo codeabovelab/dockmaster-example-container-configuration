@@ -1,5 +1,6 @@
 environment:
  - DEFAULT_JVM_OPTS="-Djava.security.egd=file:/dev/urandom -XX:+HeapDumpOnOutOfMemoryError -server"
+ - constraint:storage==~ssd
 labels:
  key: value
 ports:

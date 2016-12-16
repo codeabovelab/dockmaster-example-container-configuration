@@ -4,7 +4,7 @@ environment:
 labels:
  key: value
 ports:
- 8761: 8761
+ 127.0.0.1:8761: 8761
  8762: 8762
 restart: always
 memoryLimit: 1g
